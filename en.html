@@ -1,0 +1,784 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="sys_img\favicon\favicon.ico" type="image/x-icon">
+
+
+
+
+    <title>Media Gram</title>
+
+
+    <meta property="og:title" content="Media Gram">
+    <meta property="og:description" content="MediaGram">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.media-gram.biz/en/">
+    <meta property="og:image" content="https://www.media-gram.biz/sys_img/logo_og_v2.png">
+    <meta name="keywords" content="MediaGram">
+    <meta name="description" content="MediaGram">
+    <base href=".">
+    <!-- define user lng and base_url on js-->
+    <script>
+        var LngAbr = "en";
+        var BaseURL = "https://www.media-gram.biz/"
+    </script>
+
+    <style>
+        .swal2-container{
+            z-index: 100000
+        }
+
+        .block-reviews {
+            background: #030d29 url("themes/default/images/bg-reveiws.webp") center no-repeat !important;
+        }
+
+        .block-video {
+            background: url("themes/default/images/bg-video.webp") center no-repeat !important;
+        }
+
+        .last-news {
+            background: #020e31 url("themes/default/images/bg-last-news.webp") center no-repeat !important;
+        }
+
+        .block-advertising {
+            background: url("themes/default/images/bg-advertising.webp") center no-repeat !important;
+        }
+
+        .account-advertising {
+            background: url("themes/default/images/bg-advertising.webp") center no-repeat !important;
+        }
+
+        .preloader {
+            display: flex;
+            position: fixed;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            z-index: 9999;
+            visibility: visible;
+        }
+        #preloader div {
+            width: 0;
+            height: 0;
+            border-left: 42px solid transparent;
+            border-right: 42px solid transparent;
+            border-bottom: 42px solid #cc16a4;
+            -webkit-animation: triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
+            animation: triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite; }
+            @-webkit-keyframes triangle-skew-spin {
+                0% {
+                    -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
+                    transform: perspective(100px) rotateX(0) rotateY(0); }
+                    25% {
+                        -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
+                        transform: perspective(100px) rotateX(180deg) rotateY(0); }
+                        50% {
+                            -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+                            transform: perspective(100px) rotateX(180deg) rotateY(180deg); }
+                            75% {
+                                -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
+                                transform: perspective(100px) rotateX(0) rotateY(180deg); }
+                                100% {
+                                    -webkit-transform: perspective(100px) rotateX(0) rotateY(360deg);
+                                    transform: perspective(100px) rotateX(0) rotateY(360deg); }
+                                }
+                            </style>
+
+
+                            
+                            </head>
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="preloader" id="preloader">
+    <div></div>
+</div>
+
+
+<!-- HEADER -->
+    <header class="header-home">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-row">
+                    <div class="currency-con" style="opacity: 0;">
+                        1gram = <span>1$-70 руб</span>
+                    </div>
+                                        <div class="lan">
+                        <a class="" href="ru.html">РУС</a>
+                        <a href="en.html" class="current">EN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-row">
+                   <a href="en.html" class="header-logo"><img src="themes\default\images\logo.png" alt=""></a>
+                   <nav class="header-nav">
+                    <ul class="header-menu">
+                        <li><a href="en\support.html">Support</a></li><li><a href="en\news.html">News</a></li><li><a href="en\policy.html">Policy</a></li><li><a href="en\about.html">About service</a></li>                    </ul>
+                    <div class="header-btn">
+                                                    
+                            
+                                            </div>
+                </nav>
+                <div class="burger"><span></span></div>
+            </div>
+        </div>
+    </div>
+        <div class="ticker">
+    <div class='marquee' style='overflow:hidden'><p><span style="font-size:12px;">Dear users are happy to welcome you on our site! &nbsp; &nbsp; &nbsp;&nbsp; With us you can do your favorite thing and get money for it!</span></p>
+</div>
+    </div>
+</header>
+
+<!-- BANNER -->
+ 
+    <section class="banner-home">
+    <div class="home-slider style-slider">
+                <div class="item-banner">
+            <picture class="lazy" data-src-webp="https://www.media-gram.biz/images_banner/bg-banner-homebanners_biglng1.webp" data-src-img="https://www.media-gram.biz/images_banner/bg-banner-homebanners_biglng1.jpg">
+                <source type="image/webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="undefined undefined">
+            </picture>
+            <div class="item-banner-pos">
+                <div class="container">
+                    <div class="item-box-banner">
+                        <div class="item-text-banner">
+                            <p class="wow fadeInLeft" data-wow-delay="0.1s"><strong><i>money</i> <span>for</span></strong></p>
+                            <p class="wow fadeInLeft" data-wow-delay="0.3s"><strong><b> listening to</b></strong></p>
+                            <h2 class="wow fadeInLeft" data-wow-delay="0.5s"><span>music</span></h2>
+                            <p class="wow fadeInLeft" data-wow-delay="0.7s">is cool and easy!</p>
+                            <a data-wow-delay="0.9s" data-src="" href="https://bbiz.org/" class="btn btn__dark wow fadeInU">become a member</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            <!-- <img src="images/bg-banner-home.jpg" alt=""> -->
+            <!-- <div class="item-banner-pos">
+                <div class="container">
+                    <div class="item-box-banner">
+                        <div class="item-text-banner">
+                            <p class="wow fadeInLeft" data-wow-delay="0.1s"><strong><i>деньги</i> <span>за</span></strong></p>
+                            <p class="wow fadeInLeft" data-wow-delay="0.3s"><strong><b>прослушиваниe</b></strong></p>
+                            <h2 class="wow fadeInLeft" data-wow-delay="0.5s"><span>музыки</span></h2>
+                            <p class="wow fadeInLeft" data-wow-delay="0.7s">это круто и легко!</p>
+                            <a data-wow-delay="0.9s" href="#" class="btn btn__dark wow fadeInUp">стать участником</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+                <div class="item-banner">
+            <picture class="lazy" data-src-webp="https://www.media-gram.biz/images_banner/bg-banner-home-img-3banners_biglng1.webp" data-src-img="https://www.media-gram.biz/images_banner/bg-banner-home-img-3banners_biglng1.jpg">
+                <source type="image/webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="undefined undefined">
+            </picture>
+            <div class="item-banner-pos">
+                <div class="container">
+                    <div class="item-box-banner">
+                       <div class="item-text-banner wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+                            <p><strong><i>Quality</i></strong></p>
+                            <p><strong><b>promotion of your music</b></strong></p>
+                            <h2><span>product</span></h2>
+                            <a href="https://bbiz.org/" data-src="" class="btn btn__dark" tabindex="0">become a member</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            <!-- <img src="images/bg-banner-home.jpg" alt=""> -->
+            <!-- <div class="item-banner-pos">
+                <div class="container">
+                    <div class="item-box-banner">
+                        <div class="item-text-banner">
+                            <p class="wow fadeInLeft" data-wow-delay="0.1s"><strong><i>деньги</i> <span>за</span></strong></p>
+                            <p class="wow fadeInLeft" data-wow-delay="0.3s"><strong><b>прослушиваниe</b></strong></p>
+                            <h2 class="wow fadeInLeft" data-wow-delay="0.5s"><span>музыки</span></h2>
+                            <p class="wow fadeInLeft" data-wow-delay="0.7s">это круто и легко!</p>
+                            <a data-wow-delay="0.9s" href="#" class="btn btn__dark wow fadeInUp">стать участником</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+                <div class="item-banner">
+            <picture class="lazy" data-src-webp="https://www.media-gram.biz/images_banner/bg-banner-home-img-2banners_biglng1.webp" data-src-img="https://www.media-gram.biz/images_banner/bg-banner-home-img-2banners_biglng1.jpg">
+                <source type="image/webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="undefined undefined">
+            </picture>
+            <div class="item-banner-pos">
+                <div class="container">
+                    <div class="item-box-banner">
+                        <div class="item-text-banner wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+                            <p><strong><i>Promotional</i></strong></p>
+                            <p><strong><b>promotion of your site Quickly and Corresponding to your expectations</b></strong></p>
+                            <a href="https://bbiz.org/" data-src="" class="btn btn__dark" tabindex="0">become a member</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            <!-- <img src="images/bg-banner-home.jpg" alt=""> -->
+            <!-- <div class="item-banner-pos">
+                <div class="container">
+                    <div class="item-box-banner">
+                        <div class="item-text-banner">
+                            <p class="wow fadeInLeft" data-wow-delay="0.1s"><strong><i>деньги</i> <span>за</span></strong></p>
+                            <p class="wow fadeInLeft" data-wow-delay="0.3s"><strong><b>прослушиваниe</b></strong></p>
+                            <h2 class="wow fadeInLeft" data-wow-delay="0.5s"><span>музыки</span></h2>
+                            <p class="wow fadeInLeft" data-wow-delay="0.7s">это круто и легко!</p>
+                            <a data-wow-delay="0.9s" href="#" class="btn btn__dark wow fadeInUp">стать участником</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+            </div>
+</section>
+<div class="block-advantages">
+    <div class="container">
+        <div class="row">
+                                         <div class="col-lg-2 col-sm-4 col-xs-6 wow slideInUp" data-wow-delay="0.2s">
+                    <div class="advantage">
+                        <p class="advantage-count"><span>3055</span></p>
+                        <p class="advantage-text">USERS</p>
+                    </div>
+                </div>
+                            <div class="col-lg-2 col-sm-4 col-xs-6 wow slideInUp" data-wow-delay="0.4s">
+                    <div class="advantage">
+                        <p class="advantage-count"><span>836</span></p>
+                        <p class="advantage-text">PAYMENT OF FUNDS</p>
+                    </div>
+                </div>
+                            <div class="col-lg-2 col-sm-4 col-xs-6 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="advantage">
+                        <p class="advantage-count"><span>56297</span></p>
+                        <p class="advantage-text">LISTENED TO TRACKS</p>
+                    </div>
+                </div>
+                            <div class="col-lg-2 col-sm-4 col-xs-6 wow slideInUp" data-wow-delay="0.8s">
+                    <div class="advantage">
+                        <p class="advantage-count"><span>89</span></p>
+                        <p class="advantage-text">ONLINE USERS</p>
+                    </div>
+                </div>
+                            <div class="col-lg-2 col-sm-4 col-xs-6 wow slideInUp" data-wow-delay="1s">
+                    <div class="advantage">
+                        <p class="advantage-count"><span>935</span></p>
+                        <p class="advantage-text">USERS IN 24 HOURS</p>
+                    </div>
+                </div>
+                            <div class="col-lg-2 col-sm-4 col-xs-6 wow slideInUp" data-wow-delay="1.2s">
+                    <div class="advantage">
+                        <p class="advantage-count"><span>502</span></p>
+                        <p class="advantage-text">LAST REGISTRATIONS</p>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</div>
+<div class="block-video">
+    <div class="video-box">
+        <div class="video-img wow zoomIn">
+                        <picture class="lazy" data-src-webp="https://www.media-gram.biz/themes/default/images/20200401175020862.webp" data-src-img="https://www.media-gram.biz/themes/default/images/20200401175020862.jpg">
+                <source type="image/webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+            </picture>
+            <a href="#" data-fancybox="" data-src="https://www.youtube.com/watch?v=9Dlv7OcZSrk" class="video-btn"></a>
+        </div>
+    </div>
+</div>
+<section class="block-advertising wow fadeIn">
+    <div class="container">
+        <p>here could be </p>
+        <h2>your advertisement</h2>
+        <a href="#" data-fancybox="" data-src="#register" class="btn btn__dark">more details</a>    </div>
+</section>    <section class="block-reviews">
+        <div class="container">
+                        <h2 class="block-title">Users<span> reviews</span></h2>
+            <div class="reviews-slider style-slider wow zoomIn">
+                                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/20200227180257318.webp"> -->
+                                <img src="images_review\small\20200227180257318.jpg" alt="Mihail">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">Mihail</h3>
+                        <div class="review-text">
+                            <p>В проекте Media Gram  заложена очень хорошая идея. Тут самый легкий заработок в это нелегкое время связано с Covid-19 Просто слушаешь музыку и получаешь за это приличные деньги!Во время карантина целый день слушаю музыку при этом мне за это платят хорошие деньги.Время проведено с пользой и не в пустую.  Советую сайт мне понравилось!!!</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/20200227180134855.webp"> -->
+                                <img src="images_review\small\20200227180134855.jpg" alt="petr">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">petr</h3>
+                        <div class="review-text">
+                            <p>Cпасибо за проект! Вывел за прослушивание песен 30 gram около 3000 рублей. Этот проект дает возможность (Слушать и зарабатывать). Удачи в развитии проекта!!!</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/20200227180415176.webp"> -->
+                                <img src="images_review\small\20200227180415176.jpg" alt="kosa">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">kosa</h3>
+                        <div class="review-text">
+                            <p>Добрый вечер всем,очень классный сайт всем рекомендую ребята слушайте музыку получайте деньги,молодцы хорошо придумали так необычно всем советую офигенный заработок в интернете</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/20200227180446706.webp"> -->
+                                <img src="images_review\small\20200227180446706.png" alt="aleks1">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">aleks1</h3>
+                        <div class="review-text">
+                            <p>Всех приветствую меня зовут Александр я на данном сайте зарегестрировался не давно но есть  продвижения. Отличный ресурс не только для заработка денег но и здесь можно продвигать свои музыкальные треки. Всем спасибо. Media Gram рекомендую всем.</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/20200402001730367.webp"> -->
+                                <img src="images_review\small\20200402001730367.jpg" alt="Inna">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">Inna</h3>
+                        <div class="review-text">
+                            <p>Активировала автоплеер.Сейчас работаю на полном пасиве уже более недели.</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/20200401233922379.webp"> -->
+                                <img src="images_review\small\20200401233922379.jpg" alt="Adam">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">Adam</h3>
+                        <div class="review-text">
+                            <p>Проект просто супер бомба.Всем советую.</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                    <source type="image/webp" srcset="images_review\small\default_face.webp">
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/default_face.webp"> -->
+                                <img src="images_review\small\default_face.jpg" alt="ines">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">ines</h3>
+                        <div class="review-text">
+                            <p>Проект платит!</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                    <source type="image/webp" srcset="images_review\small\default_face.webp">
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/default_face.webp"> -->
+                                <img src="images_review\small\default_face.jpg" alt="lol">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">lol</h3>
+                        <div class="review-text">
+                            <p>Проект реально супер.Все работает и все вовремя платиться.</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                    <source type="image/webp" srcset="images_review\small\default_face.webp">
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/default_face.webp"> -->
+                                <img src="images_review\small\default_face.jpg" alt="Zenger">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">Zenger</h3>
+                        <div class="review-text">
+                            <p>Отличный сайт для заработка в интернете просто слушая музыку,особые усилие не нужны.Нажал на проигрыватель и все,деньги капают сами.Я давно искал как заработать в интерне и как вы уже догадались нашел этот чудесный сайт.Работа в интернете стало намного лучшее благодаря этому сайту.В общем всем советую</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                    <source type="image/webp" srcset="images_review\small\default_face.webp">
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/default_face.webp"> -->
+                                <img src="images_review\small\default_face.jpg" alt="Glon">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">Glon</h3>
+                        <div class="review-text">
+                            <p>Спасибо создателям за возможность заработать.</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/20200319163156132.webp"> -->
+                                <img src="images_review\small\20200319163156132.jpg" alt="Оlga">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">Оlga</h3>
+                        <div class="review-text">
+                            <p>Этот сайт,реально  что то невероятное.Я  повысила должность на проекте и сейчас хорошо зарабатываю.</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                    <source type="image/webp" srcset="images_review\small\default_face.webp">
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/default_face.webp"> -->
+                                <img src="images_review\small\default_face.jpg" alt="lesa">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">lesa</h3>
+                        <div class="review-text">
+                            <p>Только что вывела 12 gram это примерно 1000 рублей.Приятно удивлена таким способом заработка.</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                    <source type="image/webp" srcset="images_review\small\default_face.webp">
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/default_face.webp"> -->
+                                <img src="images_review\small\default_face.jpg" alt="Meloman">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">Meloman</h3>
+                        <div class="review-text">
+                            <p>Отличный сайт для заработка в интернете просто слушая музыку,особые усилие не нужны.Нажал на проигрыватель и все,деньги капают сами.Я давно искал как заработать в интерне и как вы уже догадались нашел этот чудесный сайт.Работа в интернете стало намного лучшее благодаря этому сайту.В общем всем советую!</p>
+                        </div>
+                    </div>
+                                    <div class="review-item">
+                        <div class="review-photo">
+                            <picture>
+                                                                    <source type="image/webp" srcset="images_review\small\default_face.webp">
+                                                                <!-- <source type="image/webp" srcset="https://www.media-gram.biz//images_review/default_face.webp"> -->
+                                <img src="images_review\small\default_face.jpg" alt="Devid">
+                            </picture>
+                        </div>
+                        <h3 class="review-name">Devid</h3>
+                        <div class="review-text">
+                            <p>It's a good project. It makes good money!For 2 weeks I've been making money just sitting and listening to music.</p>
+                        </div>
+                    </div>
+                            </div>
+            <a href="#" data-fancybox="" data-src="#reviews" class="btn btn__blue">Send review</a>
+        </div>
+    </section>
+
+
+<section class="last-news">
+
+    <div class="container">
+        <h2 class="block-title"><span>Last</span> News</h2>
+        <div class="row">
+            <div class="col-md-7 mb20 wow slideInLeft">
+                <div class="big-article">
+                    <p class="big-article-date">2020-06-01 12:00:00</p>
+                    <div class="big-article-img">
+                        <picture class="lazy" data-src-webp="https://www.media-gram.biz/themes/default/images/20200731115742777.webp" data-src-img="https://www.media-gram.biz/themes/default/images/20200731115742777.jpg">
+                            <source type="image/webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Increase In Earnings">
+                        </picture>
+                    </div>
+                    <div class="big-article-text">
+                        <h2>Increase In Earnings</h2>
+                        <p>We added categories to increase earnings.</p>
+                    </div>
+                    <a href="en\news\meta4.html" class="article-link">Read more</a>
+                </div>
+            </div>
+            <div class="col-md-5">
+                                        <div class="little-article mb20 wow slideInRight" data-wow-delay="0.2s">
+                            <div class="little-article-img">
+                                <picture class="lazy" data-src-webp="https://www.media-gram.biz/themes/default/images/20200401233126469.webp" data-src-img="https://www.media-gram.biz/themes/default/images/20200401233126469.jpg">
+                                    <source type="image/webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="New payment types: we care about the comfort of listeners">
+                                </picture>
+                            </div>
+                            <div class="little-article-text">
+                                <h2>New payment types: we care about the comfort of listeners</h2>
+                                <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal">New payment types: we care about the comfort of listeners</p>
+                            </div>
+                            <a href="en\news\New_payment_types.html" class="article-link">Read more</a>
+                        </div>
+                                        <div class="little-article mb20 wow slideInRight" data-wow-delay="0.4s">
+                            <div class="little-article-img">
+                                <picture class="lazy" data-src-webp="https://www.media-gram.biz/themes/default/images/20200401224220354.webp" data-src-img="https://www.media-gram.biz/themes/default/images/20200401224220354.jpg">
+                                    <source type="image/webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="The first results">
+                                </picture>
+                            </div>
+                            <div class="little-article-text">
+                                <h2>The first results</h2>
+                                <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal">The first results</p>
+                            </div>
+                            <a href="en\news\news2.html" class="article-link">Read more</a>
+                        </div>
+                                        <div class="little-article mb20 wow slideInRight" data-wow-delay="0.6s">
+                            <div class="little-article-img">
+                                <picture class="lazy" data-src-webp="https://www.media-gram.biz/themes/default/images/20200401225010339.webp" data-src-img="https://www.media-gram.biz/themes/default/images/20200401225010339.jpg">
+                                    <source type="image/webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="First users of Media Gram">
+                                </picture>
+                            </div>
+                            <div class="little-article-text">
+                                <h2>First users of Media Gram</h2>
+                                <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal">First users of Media Gram</p>
+                            </div>
+                            <a href="en\news\metaurl.html" class="article-link">Read more</a>
+                        </div>
+                            </div>
+        </div>
+        <a href="en\news.html" class="btn btn__blue"> All News</a>
+    </div>
+</section>
+<section class="block-info">
+    <div class="container">
+        <div class="box-info wow fadeInUp">
+            <h1 class="block-info-special">Internet Work</h1>
+            <p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">Who hasn&rsquo;t dreamt of earning money on the Internet, doing practically nothing? And if it was impossible before, then today, users are free to utilize amazing options, by means of which, it is possible not only to earn money online but also to acquire a nice music background!</span></span></span></p>
+
+<p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">Music websites with listening are completely changing the idea of earning money online. Such job sites on the Internet will allow users to earn utilizing their phone, PC, or another device without unnecessary actions and not investing anything.</span></span></span></p>
+
+<p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">Doing your regular house chores or sitting in your office, you can open our website Media Gram, where you can listen to music. An impressive set of music pieces allows suiting the tastes of any user, as we&rsquo;ve specifically collected for you the best tracks. Now listening to music online will turn literally into the passive income. We&rsquo;ve taken care of the quality of sound, understanding, how hard it is to find a good music site.</span></span></span></p>
+
+<p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">A few people know how to earn money through music. This is a relatively new direction of earning online, but it grows straightforward. The principle of earning money online is simple: every track presented on the website is a full original composition and, sometimes, a commercial (it is interrupted with ad). A humble reward is given to you as you listen to one track. The amount may seem insignificant but it is your reward for the ability to listen to and to download music online for free at any time. By doing what you&rsquo;re doing usually, you can earn online on the Internet and give yourself a wonderful mood!</span></span></span></p>
+
+<p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">For those who want to receive a more significant remuneration, there is the ability to choose special tariffs. </span></span></span></p>
+
+<p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">Our visitors can select various options not only for earning money but also to:</span></span></span></p>
+
+<ul>
+	<li style="margin:0cm; margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">advertise online income for listening to music</span></span></span></li>
+	<li style="margin:0cm; margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">add own tracks to the website to popularize them, which is a quite actual thing for beginning singers</span></span></span></li>
+	<li style="margin:0cm; margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">develop your own Internet projects by presenting your ideas to the broader audience.</span></span></span></li>
+</ul>
+
+<p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal">&nbsp;</span></span></p>
+
+<p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">Thus, our website to listen to music is not only an all-embracing audio planet but also an effective advertising platform, which allows to:</span></span></span></p>
+
+<ul>
+	<li style="margin:0cm; margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">advertise websites</span></span></span></li>
+	<li style="margin:0cm; margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">increase the audience of this or that resource</span></span></span></li>
+	<li style="margin:0cm; margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">increase the sales volumes</span></span></span></li>
+	<li style="margin:0cm; margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">improve the demand for your services and so on. </span></span></span></li>
+</ul>
+
+<p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal">&nbsp;</span></span></p>
+
+<p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">You can find out the more detailed info about placing your ad by contacting our administration using the channel you prefer. We offer our clients a partnership program on advantageous conditions with up to 15%. Amongst the other options, our users can access the VIP account, which unveils broad possibilities for earning and other goals.</span></span></span></p>
+
+<p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal"><span lang="EN-US" style="font-size:10.0pt">Listen to your favorite music and make sure the fast earning on the Internet only for a few clicks. Register in our project and receive all the advantages of our planet of sound!</span></span></span></p>
+
+<p style="margin-bottom:.0001pt; text-align:justify"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="line-height:normal">&nbsp;</span></span></p>
+        </div>
+    </div>
+    <span class="more-text"></span>
+</section>
+
+
+<footer>
+    <div class="container">
+        <div class="footer-row">
+            <a href="en.html" class="footer-logo"><img src="themes\default\images\logo.png" alt="MediaGramm"></a>
+            <ul class="footer-menu">
+                <li><a href="en\support.html">Support</a></li><li><a href="en\news.html">News</a></li><li><a href="en\policy.html">Policy</a></li><li><a href="en\about.html">About service</a></li>            </ul>
+            <a href="//showstreams.tv/"><img src="//www.free-kassa.ru/img/fk_btn/17.png" title="Бесплатный видеохостинг"></a>
+            <!--LiveInternet counter--><script type="text/javascript">
+                document.write('<a href="//www.liveinternet.ru/click" '+
+                    'target="_blank"><img src="//counter.yadro.ru/hit?t22.8;r'+
+                    escape(document.referrer)+((typeof(screen)=='undefined')?'':
+                        ';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+                            screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+                    ';h'+escape(document.title.substring(0,150))+';'+Math.random()+
+                    '" alt="" title="LiveInternet: показано число просмотров за 24'+
+                    ' часа, посетителей за 24 часа и за сегодня" '+
+                    'border="0" width="88" height="31"><\/a>')
+                </script><!--/LiveInternet-->
+                <div class="footer-soc">
+                    <a href="https://www.instagram.com/media_gram_biz/?igshid=18mhy29damxg7" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/watch?v=TzL3hxUu-nU" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-row">
+
+
+                <ul class="footer-menu">
+                    <li>
+                        <a href="//showstreams.tv/" target="_blank">
+                            <img src="sys_img\ps_freekassa.png" width="140" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="#">
+                         <img src="sys_img\ps_visa.png" width="140" alt="">
+                     </a>
+                 </li>
+
+                 <li>
+                    <a rel="nofollow" href="https://payeer.com/ru/" target="_blank">
+                        <img src="sys_img\ps_payeer.png" width="140" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://perfectmoney.com/" target="_blank">
+                      <img src="sys_img\ps_perfectmoney.png" width="140" alt="">
+                  </a>
+              </li>
+              <li>
+                <a rel="nofollow" href="https://qiwi.com/" target="_blank">
+                  <img src="sys_img\ps_qiwi.png" width="140" alt="">
+              </a>
+          </li>
+          <li>
+            <a rel="nofollow" href="https://money.yandex.ru/" target="_blank">
+             <img src="sys_img\ps_yandexmoney.png" width="140" alt="">
+         </a>
+     </li>
+
+
+ </ul>
+
+</div>
+</div>
+<p class="copyright">All rights reserved 2020©</p>
+</footer>
+<!--popups-->
+<div style="display: none;" id="login" class="popup-form style-form">
+    <h2 class="block-title">LOGIN IN PERSONAL Cabinet</h2>
+    <h3>Don't have an account?  <a href="#" data-fancybox="" data-src="#register"> Sign up now!</a></h3>
+    <div class="box-form">
+        <form autocomplete="off">
+            <p class="note">Login use your username or email and password*</p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Username or Email" name="login" required="">
+                </div>
+                <div class="col-sm-6">
+                    <input type="password" placeholder="Password" name="password" required="">
+                </div>
+            </div>
+            <div class="g-recaptcha" data-sitekey="6LcqMe0UAAAAANmMSTIMeODHAYXJ6vwLngnM2FK0" style="width: 304px; margin: 0 auto; margin-bottom: 5px;"></div>
+            <input type="submit" class="btn btn__blue" onclick="authorization(this)" value="Login">
+        </form>
+        <p><a href="en\account\remind_password.html">Forgot your password?</a></p>
+    </div>
+</div>
+<div style="display: none;" id="register" class="popup-form style-form">
+    <h2 class="block-title">REGISTRATION OF MELOMAN</h2>
+    <h3> Already have an account? <a href="#" data-fancybox="" data-src="#login"> Come in!</a></h3>
+    <div class="box-form">
+        <form autocomplete="off">
+            <p class="note">Login use your username or email and password*</p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" placeholder="First Name" value="" required="" name="first_name">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Last Name" value="" required="" name="last_name">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Username*" value="" required="" name="username">
+                </div>
+                <div class="col-sm-6">
+                    <input type="email" placeholder="Email*" value="" required="" name="email">
+                </div>
+                <div class="col-sm-6">
+                    <input type="password" placeholder="Password*" value="" required="" name="password">
+                </div>
+                <div class="col-sm-6">
+                    <input type="password" placeholder="Password confirmation*" value="" required="" name="confirm_password">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Phone number" value="" name="phone">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Have you been invited?" name="referer" value="">
+                </div>
+            </div>
+            <label class="checkbox">
+                <input type="checkbox" name="policy" required="">
+                <span class="checkmark"></span>
+                <a href="https://www.media-gram.biz/en/pravila" target="_blank">I agree to the Terms and Conditions of Service!</a>
+            </label>
+            <div class="g-recaptcha" data-sitekey="6LcqMe0UAAAAANmMSTIMeODHAYXJ6vwLngnM2FK0" style="width: 304px; margin: 0 auto; margin-bottom: 5px;"></div>
+            <input type="submit" class="btn btn__blue" data-error_policy="You must confirm to the Terms and Conditions of Service!" onclick="registration(this)" value="Sign up">
+        </form>
+            <!-- <p>зарегистрироваться через:</p>
+            <div class="popup-soc">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+                <a href="#"><i class="fab fa-vk"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div style="display: none;" id="reviews" class="popup-form style-form">
+        <h2 class="block-title">Add a review!</h2>
+        <h3>Add your reviews! Share your opinions!</h3>
+        <div class="box-form">
+            <form id="add_review">
+                <p class="note">Write your review *</p>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="text" name="name" placeholder="Name*">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <textarea name="text" placeholder="Message*"></textarea>
+                    </div>
+                </div>
+                <input type="submit" class="btn btn__blue" value="Add a review">
+            </form>
+        </div>
+    </div>
+    <script src="themes\default\scripts\lazyload.js"></script>
+    <link rel="stylesheet" href="themes\default\styles\vendor-min.css?v=1">
+
+    <link rel="stylesheet" href="themes\default\styles\main-min.css?v=1">
+    <link rel="stylesheet" href="themes\default\styles\backend-min.css?v=3">
+
+    <script src="themes\default\scripts\vendor\modernizr-min.js"></script>
+
+    <script src="themes\default\scripts\vendor-min.js"></script>
+    <script src="themes\default\scripts\sweetalert2@9_mini.js?v=3"></script>
+    <script src="themes\default\scripts\main-min.js?v=3"></script>
+    <!--<script src="https://www.media-gram.biz//themes/default/scripts/jquery.marquee.min.js"></script>
+    <script>
+        $(function() {
+            $('.marquee').marquee({
+                duration: 20000,
+                duplicated: true
+            });
+        });
+    </script>-->
+    <script src="modules\reviews\views\review.js"></script><!--<script src="//code.jivosite.com/widget/s8zRbq7x0X" async></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
+</body>
+</html>
